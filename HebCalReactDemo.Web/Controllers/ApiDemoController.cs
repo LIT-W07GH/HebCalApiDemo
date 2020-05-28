@@ -17,5 +17,12 @@ namespace HebCalReactDemo.Web.Controllers
         {
             return HebCalApi.ConvertToHebrew(new DateTime(1982, 1, 31));
         }
+
+        [Route("shabbos")]
+        [HttpGet]
+        public ShabbosTimesResult GetShabbosTime(string zip)
+        {
+            return HebCalApi.GetUpcomingShabbosTimes(zip);
+        }
     }
 }
