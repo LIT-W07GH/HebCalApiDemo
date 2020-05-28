@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29215.179
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HebCalReactDemo.Web", "HebCalReactDemo.Web\HebCalReactDemo.Web.csproj", "{A400129B-DACE-426E-B75C-524D36C6039C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HebCalReactDemo.Api", "HebCalReactDemo.Api\HebCalReactDemo.Api.csproj", "{17317B13-FB61-4902-9864-2D42CC8D23E7}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A400129B-DACE-426E-B75C-524D36C6039C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A400129B-DACE-426E-B75C-524D36C6039C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A400129B-DACE-426E-B75C-524D36C6039C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A400129B-DACE-426E-B75C-524D36C6039C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{17317B13-FB61-4902-9864-2D42CC8D23E7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{17317B13-FB61-4902-9864-2D42CC8D23E7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{17317B13-FB61-4902-9864-2D42CC8D23E7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{17317B13-FB61-4902-9864-2D42CC8D23E7}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {5F2440E3-524E-4BE9-AFBE-E110EFD46330}
+	EndGlobalSection
+EndGlobal
